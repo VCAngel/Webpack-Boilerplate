@@ -24,4 +24,6 @@ To run the live server provided by webpack, do the following:
 Your app will launch on development mode in your configured port.
 
 ## Why?
-> Idk, but we can skip general configuration with this! 
+Idk, but we can skip general webpack configuration with this! 
+
+**Feel free to use it!**
