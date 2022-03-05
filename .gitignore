@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# VSC Config
+.vscode
+
+# npx cli
+.bin
