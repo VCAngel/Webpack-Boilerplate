@@ -1,6 +1,6 @@
 {
   "name": "react-sass",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Boilerplate for react-sass web apps.",
   "main": "App.jsx",
   "bin": ".bin/cli.js",
