@@ -1,5 +1,5 @@
 {
-  "name": "create-webpack-app",
+  "name": "@vcangel/create-webpack-app",
   "version": "1.0.4",
   "description": "Easily create a webpack application. Multiple development stacks available",
   "bin": ".bin/cli.js",
