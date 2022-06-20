@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const { program } = require('commander');
+const { program } = require('../lib/commander');
 const { runCommand } = require('./run');
 const helpMsg = `Usage: npx create-webpack-app [--help, --mern, --mevn] <project name>
     

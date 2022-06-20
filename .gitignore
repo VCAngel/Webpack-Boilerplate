@@ -106,5 +106,5 @@ dist
 # VSC Config
 .vscode
 
-# npx cli
-# .bin
+# Module Commander
+lib
