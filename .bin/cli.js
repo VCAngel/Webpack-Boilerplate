@@ -39,14 +39,14 @@ if (options.mern) {
     const gitCheckoutCommand = `git clone https://github.com/VCAngel/MERN-app.git ${projectName}`;
     const npmInstall = `cd ${projectName} && npm install -D`;
 
-    console.log(`=> Cloning repository with name ${repoName}`);
+    console.log(`=> Cloning repository with name ${projectName}`);
     const checkedOut = runCommand(gitCheckoutCommand)
     if (!checkedOut) process.exit(-1);
 
-    console.log(`=> Installing dependencies for ${repoName}...`);
+    console.log(`=> Installing dependencies for ${projectName}...`);
     const installedDeps = runCommand(npmInstall);
     if (!installedDeps) process.exit(-1);
 
     console.warn('=> All done! Time to code!')
-    console.warn(`To start development server: cd ${repoName} && npm start`)
+    console.warn(`To start development server: cd ${projectName} && npm start`)
 }
