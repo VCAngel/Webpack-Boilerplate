@@ -47,6 +47,8 @@ if (options.mern) {
     const installedDeps = runCommand(npmInstall);
     if (!installedDeps) process.exit(-1);
 
-    console.warn('=> All done! Time to code!')
-    console.warn(`To start development server: cd ${projectName} && npm start`)
+    console.warn('=> All done... Happy coding!')
+    console.warn(`To start development server: cd ${projectName} && npm run dev`)
 }
+
+//todo mevn option
