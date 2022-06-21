@@ -1,29 +1,83 @@
-# React-SASS-Boilerplate
-Boilerplate for react-sass aplications. No create-react-app needed.
+# create-webpack-app
 
-## Install
-### Using npx
-You can start working with this boilerplate with: `npx react-sass app-name`
+> Boilerplate for webpack based applications. 
+
+## Available stacks
+
+- MERN: MongoDB, Express, React, Node.js
+- MEVN: MongoDB, Express, Vue, Node.js
+- that's it for now :]
+
+## Usage
+
+---
+### **Using npx**
+
+To select the desired stack, pass the stack as an option flag in the **`npx`** command.
+
+#### *MERN*
+
+```bash
+npx @vcangel/create-webpack-app <project-name> --mern
+```
+
+#### *MEVN*
+
+```bash
+npx @vcangel/create-webpack-app <project-name> --mevn
+```
+
 
 The app structure will be automatically generated, and you're ready to code!
 
-### Using git
-You can use `git clone` aswell if you wish.
+---
+### **Using git**
 
-To use boilerplate via **git**, do the following:
-```
-git clone https://github.com/VCAngel/React-SASS-Boilerplate app-name
-cd app-name
+You can use `git clone` aswell if you wish. To copy a boilerplate via **git**, do the following:
+
+#### *MERN*
+
+```bash
+git clone https://github.com/VCAngel/MERN-app.git project-name
+cd project-name
 npm i -D
 ```
 
-## Run webpack live server
-To run the live server provided by webpack, do the following:
-`npm run start`, or just run `npm start`
+#### *MEVN*
+
+```javascript
+TODO
+```
+
+---
+
+## NPM scripts
+
+### **Developing** the app:
+
+```bash
+npm run dev
+```
 
 Your app will launch on development mode in your configured port.
 
-## Why?
-Idk, but we can skip general webpack configuration with this! 
+### **Building** the app:
 
-**Feel free to use it!**
+```bash
+npm run build
+```
+
+Webpack will bundle the code in a dist folder.
+
+### **Starting** the app:
+
+```bash
+npm run start
+```
+Starts the application once it's bundled.
+
+## Why this?
+
+Idk, but it works for me :]
+
+**Hope it works for you aswell!**
